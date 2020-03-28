@@ -24,3 +24,8 @@ if abs(g**2-x)>eps:
 else:
     print(x,"的平方根是{:.3f}".format(g))
 input()
+
+#ASCII码
+A=input()
+a=chr(ord(A)+32)
+print(a)
